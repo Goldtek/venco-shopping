@@ -1,7 +1,6 @@
 import {View, Text, StyleSheet} from 'react-native';
 import React from 'react';
 import {widthToDp} from 'rn-responsive-screen';
-import {Colors} from './Colors';
 
 export default function CartButton({title, onPress, style, textSize, large}) {
   return (
